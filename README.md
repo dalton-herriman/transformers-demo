@@ -27,7 +27,7 @@ This repository contains a collection of small scripts demonstrating various imp
     ```
 
 ## Folder Structure
-
+```
 .
 ├── README.md
 ├── requirements.txt
