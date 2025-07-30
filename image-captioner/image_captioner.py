@@ -7,7 +7,7 @@ processor = Pix2StructProcessor.from_pretrained("google/pix2struct-base")
 model = Pix2StructForConditionalGeneration.from_pretrained("google/pix2struct-base")
 
 # Load your image
-image = Image.open("tabby-cat.jpg").convert("RGB")
+image = Image.open("image-captioner/tabby-cat.jpg").convert("RGB")
 
 # Preprocess image
 inputs = processor(images=image, return_tensors="pt")
